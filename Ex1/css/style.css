@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background:url(../img/background.jpg) lightblue no-repeat left top;
+  background-size: cover;
+}
+
+header h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  padding: 10px;
+}
+
+p {
+  width: 300px;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 10px;
+  float: left;
+  background-color: grey;
+  text-align: justify;
+}
+
+/* position all columns */
+*.background {
+  padding: 2% 10%;
+}
+
+.columns {
+  padding: 10px 10%;
+}
+
+.small_box {
+
+}
